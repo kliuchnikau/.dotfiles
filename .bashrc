@@ -105,7 +105,7 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-source /etc/bash_completion.d/password-store
+#source /etc/bash_completion.d/password-store
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
