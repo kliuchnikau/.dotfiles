@@ -51,3 +51,5 @@
 [core]
   editor = vim
   excludesfile = /home/alex/.gitignore
+[push]
+  default = simple
