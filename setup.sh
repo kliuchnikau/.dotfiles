@@ -13,4 +13,6 @@ if [[ $OSTYPE == darwin* ]]; then
   ln -s ~/.dotfiles/.bashrc ~/.bash_profile
 fi
 
+curl https://raw.github.com/riobard/bash-powerline/master/bash-powerline.sh > ~/.bash-powerline.sh
+
 echo "Aliaksei Kliuchnikau's dotfiles installed successfully"
