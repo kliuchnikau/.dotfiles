@@ -3,4 +3,8 @@ export PATH="/usr/local/bin:$PATH"
 
 # Git autocompletion
 # curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+# curl https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 source ~/.git-completion.bash
+source ~/.git-prompt.sh
+
+PS1='\u@\h:\w$(__git_ps1 " (\e[0;32m%s\e[m)")\$ '
