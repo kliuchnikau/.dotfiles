@@ -45,7 +45,7 @@ export NO_PRY="true"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-export PATH="./bin:$PATH"
+export PATH="./.binstubs:./bin:$PATH"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
