@@ -7,4 +7,8 @@ export PATH="/usr/local/bin:$PATH"
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
+if [ -f ~/.aws ]; then
+    . ~/.aws
+fi
+
 PS1='\u@\h:\w$(__git_ps1 " (\e[0;32m%s\e[m)")\$ '

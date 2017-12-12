@@ -21,3 +21,4 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 alias bex="bundle exec"
 alias h="history"
+alias gti="git"

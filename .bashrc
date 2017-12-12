@@ -53,3 +53,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export EDITOR="vim"
 #source ~/.bash-powerline.sh
 export USER=alex
+eval $(/usr/libexec/path_helper -s)
+export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home'
