@@ -43,8 +43,6 @@ fi
 
 export NO_PRY="true"
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 export PATH="./.binstubs:./bin:$PATH"
 
 ### Added by the Heroku Toolbelt
@@ -55,3 +53,13 @@ export EDITOR="vim"
 export USER=alex
 eval $(/usr/libexec/path_helper -s)
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home'
+
+# added by Anaconda3 5.1.0 installer
+export PATH="/Users/akliuchnikau/anaconda3/bin:$PATH"
+export PATH="/usr/local/opt/node@8/bin:$PATH"
+
+# better put rbenv last
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+. ~/.bashrc_gitignored
