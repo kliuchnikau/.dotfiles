@@ -63,3 +63,5 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 . ~/.bashrc_gitignored
+
+export LC_ALL=en_US.UTF-8
