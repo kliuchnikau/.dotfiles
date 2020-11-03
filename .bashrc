@@ -50,7 +50,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export EDITOR="vim"
 #source ~/.bash-powerline.sh
-export USER=alex
+export USER=akliuchnikau
 eval $(/usr/libexec/path_helper -s)
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home'
 
@@ -65,3 +65,5 @@ eval "$(rbenv init -)"
 . ~/.bashrc_gitignored
 
 export LC_ALL=en_US.UTF-8
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
