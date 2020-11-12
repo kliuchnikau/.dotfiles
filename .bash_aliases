@@ -23,3 +23,4 @@ alias bex="bundle exec"
 alias h="history"
 alias gti="git"
 alias ivm="vim"
+alias git-cleanup='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
