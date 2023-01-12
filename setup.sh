@@ -5,6 +5,7 @@ for FILE_NAME in $(find . -type f -name ".*" | sed 's|\./||')
     ln -s ~/.dotfiles/$FILE_NAME ~/$FILE_NAME
   done
 
+ln -s ~/.dotfiles/.bashrc ~/.bash_profile
 
 if [[ $OSTYPE == darwin* ]]; then
   # Mac stuff
