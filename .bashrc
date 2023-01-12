@@ -62,9 +62,6 @@ export PATH="/usr/local/opt/node@8/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# homebrew
-PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
-
 . ~/.bashrc_gitignored
 
 export LC_ALL=en_US.UTF-8

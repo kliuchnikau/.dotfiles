@@ -1,5 +1,5 @@
 # Homebrew path
-export PATH="/usr/local/bin:$PATH"
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 # Git autocompletion
 # curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
@@ -12,3 +12,6 @@ if [ -f ~/.aws ]; then
 fi
 
 PS1='\u@\h:\w$(__git_ps1 " (\e[0;32m%s\e[m)")\$ '
+
+# set quicker key repeat rate
+defaults write -g KeyRepeat 1.1
