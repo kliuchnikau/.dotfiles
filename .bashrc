@@ -45,18 +45,11 @@ export NO_PRY="true"
 
 export PATH="./.binstubs:./bin:$PATH"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
 export EDITOR="vim"
 #source ~/.bash-powerline.sh
 export USER=akliuchnikau
 eval $(/usr/libexec/path_helper -s)
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home'
-
-# added by Anaconda3 5.1.0 installer
-export PATH="/Users/akliuchnikau/anaconda3/bin:$PATH"
-export PATH="/usr/local/opt/node@8/bin:$PATH"
 
 # better put rbenv last
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -67,3 +60,6 @@ eval "$(rbenv init -)"
 export LC_ALL=en_US.UTF-8
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# Homebrew path
+export PATH="/opt/homebrew/bin:$PATH"
