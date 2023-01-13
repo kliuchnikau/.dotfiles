@@ -62,4 +62,4 @@ export LC_ALL=en_US.UTF-8
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Homebrew path
-export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
