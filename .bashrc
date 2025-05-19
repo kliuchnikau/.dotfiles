@@ -37,14 +37,16 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
-    . /etc/bash_completion
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+
+if [ -f "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+	__GIT_PROMPT_DIR="/opt/homebrew/opt/bash-git-prompt/share"
+	source "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 
 export NO_PRY="true"
 
 export PATH="./.binstubs:./bin:$PATH"
-
 
 export EDITOR="vim"
 #source ~/.bash-powerline.sh
