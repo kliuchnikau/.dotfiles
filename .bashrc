@@ -50,7 +50,7 @@ export PATH="./.binstubs:./bin:$PATH"
 
 export EDITOR="vim"
 #source ~/.bash-powerline.sh
-export USER=akliuchnikau
+#export USER=akliuchnikau
 eval $(/usr/libexec/path_helper -s)
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home'
 
@@ -68,3 +68,4 @@ export LC_ALL=en_US.UTF-8
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
