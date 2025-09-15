@@ -16,4 +16,6 @@ fi
 
 curl https://raw.github.com/riobard/bash-powerline/master/bash-powerline.sh > ~/.bash-powerline.sh
 
+touch ~/.bashrc_gitignored
+
 echo "Aliaksei Kliuchnikau's dotfiles installed successfully"
