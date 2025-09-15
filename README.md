@@ -8,3 +8,6 @@ colors settings as one of pre-loaded themes for iTerm2
 
 Install git completions:
 brew install git bash-completion
+
+Set bash as default shell for mac:
+chsh -s /bin/bash
